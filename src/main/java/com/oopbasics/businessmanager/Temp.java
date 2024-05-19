@@ -20,15 +20,5 @@ public class Temp {
         for(Customer c : bus1.getCustomers()) {
             incomes.add(c.getAnnualIncome());
         }
-        int option = 0;
-        // IMPLEMENT INSIGTS AND USER INPUTS
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Select an Option from Below Menu: ");
-        System.out.println("1. Create New Business ");
-        System.out.println("2. Read Business Details ");
-        System.out.println("3. Update Business Details ");
-        System.out.println("4. Delete Business ");
-        option = sc.nextInt();
-        System.out.println(option);
     }
 }
